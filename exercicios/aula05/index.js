@@ -20,7 +20,7 @@ export function calcularDesconto(preco, percentual) {
 // Exercício 3 — verificarAprovacao
 export function verificarAprovacao(nota) {
   if (nota >= 60) return "aprovado";
-  if (nota >= 40) return "recuperação";
+  else if (nota >= 40) return "recuperação";
   return "reprovado";
 }
 
